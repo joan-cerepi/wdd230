@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Joan Cerepi">
+  <meta name="description" content="WDD 230 - Web Frontend Development | Joan Cerepi's course assignment portal">
+
+  <title>Joan Cerepi - WDD 230 - Web Frontend Development</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/joan-profile.webp" alt="Joan at a miniature golf course" width="150" height="150"
+      class="profile-pic">
+    <h1>Joan Cerepi</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+    <a href="chamber/">Chamber</a>
+    <a href="https://byui.edu/" target="_blank">BYU-Idaho</a>
+    <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng#p20"
+      target="_blank">Scripture</a>
+  </nav>
+
+  <main>
+    <h2>WDD 230: Web Frontend Development</h2>
+
+    <section class="card">
+      <h3>Learning Activities</h3>
+      <ul class="activities">
+        <li>
+          <a href="lesson01/holygrail.html">Holygrail Layout</a> |
+          <a href="https://codepen.io/joan-cerepi/pen/jOdKJNN" target="_blank">Applied JS</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Information</h3>
+      <div class="weather">Weather Placeholder</div>
+      <div class="number-of-visits">Number of Visits Placeholder</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="currentYear"></span> | Joan Cerepi | Idaho, United States
+    </p>
+
+    <p id="lastModified">Last Modified: </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts/getdates.js"></script>
+</body>
+
+</html>
