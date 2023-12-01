@@ -1,0 +1,54 @@
+@media screen and (min-width: 780px) {
+  /* |-| HEADER */
+
+  header {
+    gap: 3rem;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* ----------------------- */
+
+  /* |-| NAVIGATION */
+
+  nav {
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.3rem;
+  }
+
+  /* ----------------------- */
+
+  /* |-| MAIN AREA */
+
+  main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  main h2 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .activity-card {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .info-card {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  /* ----------------------- */
+}
