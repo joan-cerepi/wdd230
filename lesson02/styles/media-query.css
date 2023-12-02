@@ -1,0 +1,57 @@
+@media screen and (min-width: 400px) {
+  /* |-| MAIN AREA */
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  /* ----------------------- */
+}
+
+@media screen and (min-width: 757px) {
+  /* |-| MAIN AREA */
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-netflix {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .card-apple {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .card-bristolbeacon {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  /* ----------------------- */
+}
+
+@media screen and (min-width: 1360px) {
+  /* |-| MAIN AREA */
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card-netflix {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .card-apple {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .card-bristolbeacon {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+}
