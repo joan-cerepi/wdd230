@@ -137,10 +137,11 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   padding: 3rem;
+  gap: 2.5em;
 }
 
 main h2 {
-  margin-top: 0;
+  margin: 0;
   padding-bottom: 10px;
   border-bottom: 5px double #000;
 }
@@ -148,6 +149,26 @@ main h2 {
 .activity-list {
   list-style-type: none;
   line-height: 2;
+}
+
+.activity-card h3,
+.info-card h3 {
+  background-color: var(--dark-green);
+  color: var(--cream);
+  text-align: center;
+  padding: 1.2rem 0;
+  margin: 0 0 20px 0;
+}
+
+.activity-card,
+.info-card {
+  border: 2px solid lightgray;
+  box-shadow: 1px 2px 5px var(--dark-green);
+}
+
+.info-card div {
+  text-align: center;
+  margin: 20px 0;
 }
 
 /* ----------------------- */
