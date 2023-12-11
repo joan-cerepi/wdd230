@@ -14,14 +14,33 @@
     height: 150px;
   }
 
+  .responsive-menu-icon {
+    display: none;
+  }
+
   /* ----------------------- */
 
   /* |-| NAVIGATION */
 
-  nav {
+  .navigation {
+    background-color: var(--black);
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 1.3rem;
+  }
+
+  .navigation a {
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    padding: 15px 25px;
+  }
+
+  .navigation a:hover {
+    background-color: var(--white);
+    color: var(--black);
+    text-decoration: underline;
   }
 
   /* ----------------------- */

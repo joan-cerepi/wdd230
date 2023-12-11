@@ -46,7 +46,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 3rem;
   padding: 20px 0;
 }
 
@@ -54,11 +54,45 @@ header h1 {
   font-size: 1.6em;
 }
 
+.responsive-menu-icon {
+  display: block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: var(--cream);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
 /* ----------------------- */
 
 /* |-| NAVIGATION */
 
-nav {
+.navigation {
+  display: none;
+}
+
+.responsive-nav {
   background-color: var(--black);
   font-size: 1rem;
   display: flex;
@@ -66,17 +100,24 @@ nav {
   text-align: center;
 }
 
-nav a {
+.responsive-nav a {
   color: var(--white);
   text-decoration: none;
   transition: 0.3s ease-in-out;
   padding: 15px 25px;
 }
 
-nav a:hover {
+.responsive-nav a:hover {
   background-color: var(--white);
   color: var(--black);
   text-decoration: underline;
+}
+
+.navigation a.active {
+  background-color: #fff;
+  color: #000;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 /* ----------------------- */
