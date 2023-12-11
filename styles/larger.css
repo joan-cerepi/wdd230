@@ -69,6 +69,11 @@
     grid-row: 2 / 3;
   }
 
+  .activity-card ul,
+  .info-card div {
+    font-size: 1.1rem;
+  }
+
   /* ----------------------- */
 
   /* |-| GOOGLE MAP */
