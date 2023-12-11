@@ -113,11 +113,19 @@ header h1 {
   text-decoration: underline;
 }
 
+.navigation a.active::before {
+  content: "✧ ";
+}
+
 .navigation a.active {
   background-color: #fff;
   color: #000;
   text-decoration: underline;
   font-weight: 700;
+}
+
+.navigation a.active::after {
+  content: " ✧";
 }
 
 /* ----------------------- */
