@@ -68,4 +68,13 @@
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }
+
+  /* ----------------------- */
+
+  /* |-| GOOGLE MAP */
+
+  .google-map {
+    width: 80%;
+    height: 450px;
+  }
 }

@@ -152,6 +152,16 @@ main h2 {
 
 /* ----------------------- */
 
+/* |-| GOOGLE MAP */
+.google-map {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin: 25px auto;
+}
+
+/* ----------------------- */
+
 /* |-| FOOTER */
 
 footer {
