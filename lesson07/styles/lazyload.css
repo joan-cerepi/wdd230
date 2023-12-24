@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* |-| HEADER */
+
+header {
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+/* ------------------------------ */
+
+/* |-| MAIN */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+}
+
+main img {
+  background-color: #000;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+/* ------------------------------ */
+
+/* |-| FOOTER */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1.2rem;
+  margin-top: 2.5rem;
+  line-height: 2;
+}
+
+/* ------------------------------ */
+
+/* |-| ANIMATIONS */
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
